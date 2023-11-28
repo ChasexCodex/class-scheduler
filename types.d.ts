@@ -1,0 +1,24 @@
+type SWV_Entry = {
+    SWV_CLASS_SEARCH_TERM: string;
+    SWV_CLASS_SEARCH_CRN: string;
+    SWV_CLASS_SEARCH_TITLE: string;
+    SWV_CLASS_SEARCH_SUBJECT: string;
+    SWV_CLASS_SEARCH_SUBJECT_DESC: string;
+    SWV_CLASS_SEARCH_COURSE: string;
+    SWV_CLASS_SEARCH_SECTION: string;
+    SWV_CLASS_SEARCH_HOURS_LOW: number;
+    SWV_CLASS_SEARCH_HOURS_HIGH: number;
+    SWV_CLASS_SEARCH_SITE?: string; // Optional fields are marked with ?
+    SWV_CLASS_SEARCH_PTRM?: string;
+    SWV_CLASS_SEARCH_HAS_SYL_IND?: string;
+    SWV_CLASS_SEARCH_MAX_ENRL?: number;
+    SWV_CLASS_SEARCH_ENRL?: number;
+    SWV_CLASS_SEARCH_SEATS_AVAIL?: number;
+    SWV_CLASS_SEARCH_SCHD?: string;
+    SWV_CLASS_SEARCH_INST_TYPE?: string;
+    SWV_CLASS_SEARCH_INSTRCTR_JSON?: string;
+    SWV_CLASS_SEARCH_JSON_CLOB?: string;
+    SWV_CLASS_SEARCH_ATTRIBUTES?: string;
+    SWV_CLASS_SEARCH_SESSION?: string;
+    HRS_COLUMN_FIELD?: string;
+}
