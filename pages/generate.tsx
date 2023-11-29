@@ -74,8 +74,8 @@ export default function GeneratePage({data}: Props) {
       >
         Back
       </Link>
-      <div className="flex-1 w-2/3 mx-auto flex flex-col bg-neutral-800">
-        <div className="grid grid-cols-8">
+      <div className="flex-1 w-2/3 mx-auto flex flex-col bg-neutral-800 rounded outline px-4 py-2">
+        <div className="grid grid-cols-8 border-b">
           <p>Times</p>
           <p>Sunday</p>
           <p>Monday</p>
@@ -85,7 +85,7 @@ export default function GeneratePage({data}: Props) {
           <p>Friday</p>
           <p>Saturday</p>
         </div>
-        <div className="grid grid-cols-8 flex-1 gap-x-1">
+        <div className="grid grid-cols-8 flex-1">
           <div className="relative">
             {Array.from({length: 14}).map((_, i) => (
               <div
@@ -94,14 +94,14 @@ export default function GeneratePage({data}: Props) {
                   height: 60,
                 }}
                 className="absolute left-0 right-0">
-                <div className="h-full border-t">
+                <div className="h-full border-t border-r">
                   {((i + 6) % 12) + 1}
                 </div>
               </div>
             ))}
           </div>
           {days.map(d =>
-            <div className="h-full relative">
+            <div className="h-full relative border-l border-r">
               {lectures.filter(e => e[d] !== null).map(e => (
                 <div style={{
                   top: start(e),
