@@ -1,0 +1,975 @@
+{
+  "Courses": [
+    {
+      "ID": "Course_1",
+      "Name": "Course 1"
+    },
+    {
+      "ID": "Course_2",
+      "Name": "Course 2"
+    },
+    {
+      "ID": "Course_3",
+      "Name": "Course 3"
+    },
+    {
+      "ID": "Course_4",
+      "Name": "Course 4"
+    },
+    {
+      "ID": "Course_5",
+      "Name": "Course 5"
+    }
+  ],
+  "Sections": [
+    {
+      "ID": "Course_1_Sec1",
+      "Name": "Course 1 Section 1",
+      "Lectures": [
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 18,
+            "minutes": 30
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 20,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 11,
+            "minutes": 45
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 8,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 15,
+            "minutes": 0
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 17,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 17,
+            "minutes": 15
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 9,
+            "minutes": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_1_Sec2",
+      "Name": "Course 1 Section 2",
+      "Lectures": [
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 19,
+            "minutes": 30
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 16,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 17,
+            "minutes": 30
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 15,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 13,
+            "minutes": 45
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 15,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 14,
+            "minutes": 15
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 11,
+            "minutes": 30
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_1_Sec3",
+      "Name": "Course 1 Section 3",
+      "Lectures": [
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 18,
+            "minutes": 45
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 18,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 14,
+            "minutes": 0
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 20,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 8,
+            "minutes": 30
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 9,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 12,
+            "minutes": 30
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 17,
+            "minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_2_Sec1",
+      "Name": "Course 2 Section 1",
+      "Lectures": [
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 18,
+            "minutes": 15
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 7,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 8,
+            "minutes": 45
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 8,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 7,
+            "minutes": 0
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 15,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 8,
+            "minutes": 0
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 14,
+            "minutes": 30
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_2_Sec2",
+      "Name": "Course 2 Section 2",
+      "Lectures": [
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 12,
+            "minutes": 0
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 11,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 15,
+            "minutes": 15
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 9,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 13,
+            "minutes": 45
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 13,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 19,
+            "minutes": 15
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 9,
+            "minutes": 30
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_2_Sec3",
+      "Name": "Course 2 Section 3",
+      "Lectures": [
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 11,
+            "minutes": 45
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 14,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 14,
+            "minutes": 45
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 15,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 8,
+            "minutes": 0
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 7,
+            "minutes": 45
+          }
+        },
+        {
+          "Day": "Tuesday",
+          "StartTime": {
+            "hours": 19,
+            "minutes": 0
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 18,
+            "minutes": 45
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_3_Sec1",
+      "Name": "Course 3 Section 1",
+      "Lectures": [
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 19,
+            "minutes": 45
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 15,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 8,
+            "minutes": 30
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 7,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 11,
+            "minutes": 0
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 10,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 14,
+            "minutes": 45
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 14,
+            "minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_3_Sec2",
+      "Name": "Course 3 Section 2",
+      "Lectures": [
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 10,
+            "minutes": 15
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 18,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 11,
+            "minutes": 15
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 16,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Tuesday",
+          "StartTime": {
+            "hours": 7,
+            "minutes": 30
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 8,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 18,
+            "minutes": 0
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 18,
+            "minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_3_Sec3",
+      "Name": "Course 3 Section 3",
+      "Lectures": [
+        {
+          "Day": "Tuesday",
+          "StartTime": {
+            "hours": 16,
+            "minutes": 0
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 8,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Tuesday",
+          "StartTime": {
+            "hours": 7,
+            "minutes": 45
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 11,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 17,
+            "minutes": 15
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 14,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 13,
+            "minutes": 15
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 14,
+            "minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_4_Sec1",
+      "Name": "Course 4 Section 1",
+      "Lectures": [
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 10,
+            "minutes": 15
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 9,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 20,
+            "minutes": 15
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 15,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 10,
+            "minutes": 15
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 14,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 10,
+            "minutes": 0
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 18,
+            "minutes": 30
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_4_Sec2",
+      "Name": "Course 4 Section 2",
+      "Lectures": [
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 8,
+            "minutes": 45
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 18,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 14,
+            "minutes": 0
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 18,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 7,
+            "minutes": 15
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 20,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 10,
+            "minutes": 0
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 18,
+            "minutes": 45
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_4_Sec3",
+      "Name": "Course 4 Section 3",
+      "Lectures": [
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 15,
+            "minutes": 45
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 14,
+            "minutes": 45
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 20,
+            "minutes": 45
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 8,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 18,
+            "minutes": 15
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 9,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Tuesday",
+          "StartTime": {
+            "hours": 19,
+            "minutes": 45
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 13,
+            "minutes": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_5_Sec1",
+      "Name": "Course 5 Section 1",
+      "Lectures": [
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 15,
+            "minutes": 15
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 11,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 9,
+            "minutes": 0
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 14,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 18,
+            "minutes": 15
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 16,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Wednesday",
+          "StartTime": {
+            "hours": 14,
+            "minutes": 15
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 19,
+            "minutes": 0
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_5_Sec2",
+      "Name": "Course 5 Section 2",
+      "Lectures": [
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 11,
+            "minutes": 45
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 15,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 10,
+            "minutes": 30
+          },
+          "Length": 60,
+          "EndTime": {
+            "hours": 8,
+            "minutes": 30
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 11,
+            "minutes": 15
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 11,
+            "minutes": 15
+          }
+        },
+        {
+          "Day": "Monday",
+          "StartTime": {
+            "hours": 7,
+            "minutes": 15
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 11,
+            "minutes": 45
+          }
+        }
+      ]
+    },
+    {
+      "ID": "Course_5_Sec3",
+      "Name": "Course 5 Section 3",
+      "Lectures": [
+        {
+          "Day": "Friday",
+          "StartTime": {
+            "hours": 7,
+            "minutes": 30
+          },
+          "Length": 90,
+          "EndTime": {
+            "hours": 12,
+            "minutes": 45
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 9,
+            "minutes": 45
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 9,
+            "minutes": 0
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 15,
+            "minutes": 45
+          },
+          "Length": 30,
+          "EndTime": {
+            "hours": 9,
+            "minutes": 45
+          }
+        },
+        {
+          "Day": "Thursday",
+          "StartTime": {
+            "hours": 19,
+            "minutes": 15
+          },
+          "Length": 45,
+          "EndTime": {
+            "hours": 7,
+            "minutes": 15
+          }
+        }
+      ]
+    }
+  ],
+  "Students": [
+    {
+      "ID": "Student_1",
+      "Name": "Student 1",
+      "Courses": [
+        "Course_2_Sec1",
+        "Course_4_Sec2"
+      ]
+    },
+    {
+      "ID": "Student_2",
+      "Name": "Student 2",
+      "Courses": [
+        "Course_1_Sec1",
+        "Course_3_Sec3"
+      ]
+    },
+    {
+      "ID": "Student_3",
+      "Name": "Student 3",
+      "Courses": [
+        "Course_4_Sec2",
+        "Course_5_Sec1"
+      ]
+    },
+    {
+      "ID": "Student_4",
+      "Name": "Student 4",
+      "Courses": [
+        "Course_4_Sec3",
+        "Course_5_Sec3"
+      ]
+    },
+    {
+      "ID": "Student_5",
+      "Name": "Student 5",
+      "Courses": [
+        "Course_2_Sec1",
+        "Course_4_Sec1"
+      ]
+    },
+    {
+      "ID": "Student_6",
+      "Name": "Student 6",
+      "Courses": [
+        "Course_4_Sec2",
+        "Course_1_Sec1"
+      ]
+    },
+    {
+      "ID": "Student_7",
+      "Name": "Student 7",
+      "Courses": [
+        "Course_2_Sec3",
+        "Course_5_Sec3"
+      ]
+    },
+    {
+      "ID": "Student_8",
+      "Name": "Student 8",
+      "Courses": [
+        "Course_5_Sec3",
+        "Course_1_Sec2"
+      ]
+    },
+    {
+      "ID": "Student_9",
+      "Name": "Student 9",
+      "Courses": [
+        "Course_4_Sec3",
+        "Course_1_Sec2"
+      ]
+    },
+    {
+      "ID": "Student_10",
+      "Name": "Student 10",
+      "Courses": [
+        "Course_3_Sec2",
+        "Course_1_Sec2"
+      ]
+    }
+  ],
+  "TargetCourses": [
+    {
+      "ID": "TargetCourse_1",
+      "Name": "Target Course 1",
+      "Students": [
+        "Student_10",
+        "Student_5",
+        "Student_7",
+        "Student_3",
+        "Student_4"
+      ]
+    },
+    {
+      "ID": "TargetCourse_2",
+      "Name": "Target Course 2",
+      "Students": [
+        "Student_8",
+        "Student_6",
+        "Student_7",
+        "Student_4",
+        "Student_3"
+      ]
+    },
+    {
+      "ID": "TargetCourse_3",
+      "Name": "Target Course 3",
+      "Students": [
+        "Student_5",
+        "Student_10",
+        "Student_4",
+        "Student_6",
+        "Student_7"
+      ]
+    },
+    {
+      "ID": "TargetCourse_4",
+      "Name": "Target Course 4",
+      "Students": [
+        "Student_4",
+        "Student_6",
+        "Student_8",
+        "Student_10",
+        "Student_2"
+      ]
+    },
+    {
+      "ID": "TargetCourse_5",
+      "Name": "Target Course 5",
+      "Students": [
+        "Student_6",
+        "Student_1",
+        "Student_7",
+        "Student_5",
+        "Student_8"
+      ]
+    }
+  ]
+}
