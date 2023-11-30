@@ -89,6 +89,7 @@ export default function GeneratePage({data}: Props) {
           <div className="relative">
             {Array.from({length: 14}).map((_, i) => (
               <div
+                key={i}
                 style={{
                   top: i * 60,
                   height: 60,
@@ -100,10 +101,14 @@ export default function GeneratePage({data}: Props) {
               </div>
             ))}
           </div>
-          {days.map(d =>
-            <div className="h-full relative border-l border-r">
-              {lectures.filter(e => e[d] !== null).map(e => (
-                <div style={{
+          {days.map((d, i) =>
+            <div
+              key={i}
+              className="h-full relative border-l border-r">
+              {lectures.filter(e => e[d] !== null).map((e, i) => (
+                <div
+                  key={i}
+                  style={{
                   top: start(e),
                   height: length(e),
                 }} className="absolute right-0 left-0 bg-red-900">

@@ -66,7 +66,7 @@ export default function AddPage({data}: Props) {
       <div className="min-h-screen w-3/4 mx-auto">
         <div className="flex flex-col divide-y-4 bg-neutral-600 rounded-xl py-4">
           {students.map((e, i) => (
-            <div className="text-black p-4 flex flex-col">
+            <div key={i} className="text-black p-4 flex flex-col">
               <button onClick={onDelete(i)} className="ml-auto w-8 h-8 bg-red-600 text-white font-extrabold rounded-full transform scale-75">X</button>
               <div className="grid grid-cols-2 w-1/5 gap-y-1">
                 <p className="text-white">ID</p>
@@ -79,7 +79,7 @@ export default function AddPage({data}: Props) {
               <div className="mt-2 grid grid-cols-10 gap-x-4">
                 <p className="text-white">Courses</p>
                 {Array.from({length: 7}).map((_, i2) => (
-                  <input className="rounded py-1 px-2" placeholder={"Course " + i2 + "..."} value={students[i].courses[i2]}
+                  <input key={i2}  className="rounded py-1 px-2" placeholder={"Course " + i2 + "..."} value={students[i].courses[i2]}
                          onChange={onChangeCourses(i, i2)}/>
                 ))}
               </div>
