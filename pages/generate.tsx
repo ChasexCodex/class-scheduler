@@ -10,7 +10,7 @@ type Props = {
   }
 }
 
-export const getServerSideProps: GetServerSideProps<Props> = async (context) => {
+export const getServerSideProps: GetServerSideProps<Props> = async () => {
 
   const res = await get(ref(db, '/'))
   const data = res.val()
@@ -74,7 +74,7 @@ export default function GeneratePage({data}: Props) {
       >
         Back
       </Link>
-      <div className="flex-1 w-2/3 mx-auto flex flex-col bg-neutral-800 rounded outline px-4 py-2">
+      <div className="flex-1 w-3/4 mx-auto flex flex-col px-4 py-2">
         <div className="grid grid-cols-8 border-b">
           <p>Times</p>
           <p>Sunday</p>
