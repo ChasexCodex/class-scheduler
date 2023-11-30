@@ -111,7 +111,7 @@ export default function GeneratePage({data}: Props) {
                   style={{
                   top: start(e),
                   height: length(e),
-                }} className="absolute right-0 left-0 bg-red-900">
+                }} className="absolute right-0 left-0 bg-gradient-to-b from-red-600 to-red-400 bg-opacity-80">
                   <p className="text-center">
                     {e.SSRMEET_BEGIN_TIME} - {e.SSRMEET_END_TIME}
                   </p>
