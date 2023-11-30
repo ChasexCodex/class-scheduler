@@ -11,16 +11,16 @@ export default function Home() {
           className="py-2 px-4 bg-black dark:bg-neutral-400 font-semibold rounded-full transition hover:ring ring-gray-200">
           Students
         </Link>
-        <Link
-          href="/target-courses"
-          className="py-2 px-4 bg-black dark:bg-neutral-400 font-semibold rounded-full transition hover:ring ring-gray-200">
-          Target Courses
-        </Link>
-        <Link
-          href="/courses"
-          className="py-2 px-4 bg-black dark:bg-neutral-400 font-semibold rounded-full transition hover:ring ring-gray-200">
-          Add Courses
-        </Link>
+        {/*<Link*/}
+        {/*  href="/target-courses"*/}
+        {/*  className="py-2 px-4 bg-black dark:bg-neutral-400 font-semibold rounded-full transition hover:ring ring-gray-200">*/}
+        {/*  Target Courses*/}
+        {/*</Link>*/}
+        {/*<Link*/}
+        {/*  href="/courses"*/}
+        {/*  className="py-2 px-4 bg-black dark:bg-neutral-400 font-semibold rounded-full transition hover:ring ring-gray-200">*/}
+        {/*  Add Courses*/}
+        {/*</Link>*/}
         <Link
           href="/generate"
           className="py-2 px-4 bg-black dark:bg-neutral-400 font-semibold rounded-full transition hover:ring ring-gray-200">
